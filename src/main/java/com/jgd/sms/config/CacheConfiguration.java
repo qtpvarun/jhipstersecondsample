@@ -42,6 +42,14 @@ public class CacheConfiguration {
             createCache(cm, com.jgd.sms.domain.User.class.getName());
             createCache(cm, com.jgd.sms.domain.Authority.class.getName());
             createCache(cm, com.jgd.sms.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.jgd.sms.domain.Course.class.getName());
+            createCache(cm, com.jgd.sms.domain.Course.class.getName() + ".reviews");
+            createCache(cm, com.jgd.sms.domain.Course.class.getName() + ".students");
+            createCache(cm, com.jgd.sms.domain.Student.class.getName());
+            createCache(cm, com.jgd.sms.domain.Student.class.getName() + ".reviews");
+            createCache(cm, com.jgd.sms.domain.Student.class.getName() + ".courses");
+            createCache(cm, com.jgd.sms.domain.Passport.class.getName());
+            createCache(cm, com.jgd.sms.domain.Review.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
