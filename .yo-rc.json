@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jgd.sms"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "secondsample",
+    "packageName": "com.jgd.sms",
+    "packageFolder": "com/jgd/sms",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MGJkYTc0MWEwYWU0N2MzYjgwMzBkMDNhNWMzNzhhZDkxNjBiOTAwYTllZjg3YjE2MzNlZTc2NmViMmYyOWE2NTJiYjM1NmI3MzQzYzIxZWU3OGIyNGY1MzFkNGRlMzc4Y2MyZmNiNzYyYzUzOGE2OWU5MDJiM2MzYWYxNmFiODA=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "solar",
+    "clientThemeVariant": "primary",
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
